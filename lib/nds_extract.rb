@@ -1,6 +1,6 @@
 $LOAD_PATH.unshift(File.dirname(__FILE__))
 require 'directors_database'
-pp directors_database
+
 def directors_totals(nds)
   hash = {}
   directors_totals = 0
@@ -19,7 +19,7 @@ def directors_totals(nds)
     director_index += 1
   end
 
-  hash
+  hash{}
 end
   
   
